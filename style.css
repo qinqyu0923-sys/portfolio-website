@@ -1,0 +1,19 @@
+body { font-family: 'Microsoft YaHei', sans-serif; margin:0; padding:0; color:#333; background:#fff; }
+header { display:flex; justify-content:space-between; padding:20px 50px; background:#f8f8f8; }
+header .logo { font-size:24px; font-weight:bold; color:#007BFF; }
+header nav a { margin-left:20px; text-decoration:none; color:#007BFF; }
+header nav a:hover { text-decoration:underline; }
+section { padding:50px; text-align:center; }
+.hero h1 { font-size:36px; margin-bottom:20px; }
+.hero p { font-size:18px; color:#666; }
+.about-me img { width:150px; border-radius:50%; margin-bottom:20px; }
+.about-me p { max-width:600px; margin:0 auto; line-height:1.8; }
+.portfolio-categories button { margin:5px; padding:10px 15px; border:none; cursor:pointer; background:#007BFF; color:#fff; border-radius:5px; }
+.portfolio-categories button.active { background:#0056b3; }
+.portfolio-items { display:flex; flex-wrap:wrap; justify-content:center; margin-top:30px; }
+.portfolio-items .item { margin:10px; width:250px; }
+.portfolio-items .item img { width:100%; border-radius:5px; }
+.contact form { max-width:500px; margin:20px auto; display:flex; flex-direction:column; }
+.contact input, .contact textarea { margin-bottom:15px; padding:10px; border:1px solid #ccc; border-radius:5px; }
+.contact button { padding:10px; background:#007BFF; color:#fff; border:none; border-radius:5px; cursor:pointer; }
+footer { text-align:center; padding:20px; background:#f8f8f8; margin-top:50px; font-size:14px; color:#666; }
